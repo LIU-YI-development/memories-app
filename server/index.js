@@ -14,6 +14,7 @@ const CONNECTION_URL =
   'mongodb+srv://liuyi:liuyi123@cluster0.1sjle.mongodb.net/<dbname>?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;
 
+const aa = [];
 mongoose
   .connect(CONNECTION_URL, {
     useNewUrlParser: true,
